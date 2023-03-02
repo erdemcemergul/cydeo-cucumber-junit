@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="57.782">
+    <testcase classname="Web table user order feature" name="User should be able to place order and order seen in web table" time="13.64">
+        <system-out>
+            <![CDATA[Given user is already logged in and on order page...........................passed
+When user selects product type "MoneyCog"...................................passed
+And user enters quantity 2..................................................passed
+And user enters customer name "Marie Curie".................................passed
+And user enters street "London st"..........................................passed
+And user enters city "London"...............................................passed
+And user enters state "England".............................................passed
+And user enters zipcode "50505".............................................passed
+And user selects credit card type "Visa"....................................passed
+And user enters credit card number "1111222233334444".......................passed
+And user enters expiry date "12/24".........................................passed
+And user enters process order button........................................passed
+Then user should see "Marie Curie" in first row of the web table............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Web table user order feature" name="User should be able to place order and order seen in web table 2" time="11.048">
+        <system-out>
+            <![CDATA[Given user is already logged in and on order page...........................passed
+When user selects product type "Familybea"..................................passed
+And user enters quantity 3..................................................passed
+And user enters customer name "Rosalind Franklin"...........................passed
+And user enters street "London st"..........................................passed
+And user enters city "London"...............................................passed
+And user enters state "England".............................................passed
+And user enters zipcode "50505".............................................passed
+And user selects credit card type "Visa"....................................passed
+And user enters credit card number "1111222233334444".......................passed
+And user enters expiry date "12/24".........................................passed
+And user enters process order button........................................passed
+Then user should see "Rosalind Franklin" in first row of the web table......passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Web table user order feature" name="User should be able to place order and order seen in web table 3" time="11.012">
+        <system-out>
+            <![CDATA[Given user is already logged in and on order page...........................passed
+When user selects product type "Screenable".................................passed
+And user enters quantity 4..................................................passed
+And user enters customer name "List Meitner"................................passed
+And user enters street "London st"..........................................passed
+And user enters city "London"...............................................passed
+And user enters state "England".............................................passed
+And user enters zipcode "50505".............................................passed
+And user selects credit card type "Visa"....................................passed
+And user enters credit card number "1111222233334444".......................passed
+And user enters expiry date "12/24".........................................passed
+And user enters process order button........................................passed
+Then user should see "List Meitner" in first row of the web table...........passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Web table user order feature" name="User should be able to place order and order seen in web table 4" time="10.553">
+        <system-out>
+            <![CDATA[Given user is already logged in and on order page...........................passed
+When user selects product type "MoneyCog"...................................passed
+And user enters quantity 5..................................................passed
+And user enters customer name "Chien-Shiung Wu".............................passed
+And user enters street "London st"..........................................passed
+And user enters city "London"...............................................passed
+And user enters state "England".............................................passed
+And user enters zipcode "50505".............................................passed
+And user selects credit card type "Visa"....................................passed
+And user enters credit card number "1111222233334444".......................passed
+And user enters expiry date "12/24".........................................passed
+And user enters process order button........................................passed
+Then user should see "Chien-Shiung Wu" in first row of the web table........passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Web table user order feature" name="User should be able to place order and order seen in web table 5" time="10.632">
+        <system-out>
+            <![CDATA[Given user is already logged in and on order page...........................passed
+When user selects product type "MoneyCog"...................................passed
+And user enters quantity 6..................................................passed
+And user enters customer name "Barbara McClintock"..........................passed
+And user enters street "London st"..........................................passed
+And user enters city "London"...............................................passed
+And user enters state "England".............................................passed
+And user enters zipcode "50505".............................................passed
+And user selects credit card type "Visa"....................................passed
+And user enters credit card number "1111222233334444".......................passed
+And user enters expiry date "12/24".........................................passed
+And user enters process order button........................................passed
+Then user should see "Barbara McClintock" in first row of the web table.....passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
