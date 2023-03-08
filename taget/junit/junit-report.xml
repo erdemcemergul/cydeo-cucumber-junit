@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="57.782">
-    <testcase classname="Web table user order feature" name="User should be able to place order and order seen in web table" time="13.64">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="34.338">
+    <testcase classname="Web table user order feature" name="User should be able to place order and order seen in web table" time="11.555">
         <system-out>
             <![CDATA[Given user is already logged in and on order page...........................passed
 When user selects product type "MoneyCog"...................................passed
@@ -18,7 +18,7 @@ Then user should see "Marie Curie" in first row of the web table............pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Web table user order feature" name="User should be able to place order and order seen in web table 2" time="11.048">
+    <testcase classname="Web table user order feature" name="User should be able to place order and order seen in web table 2" time="5.584">
         <system-out>
             <![CDATA[Given user is already logged in and on order page...........................passed
 When user selects product type "Familybea"..................................passed
@@ -36,7 +36,7 @@ Then user should see "Rosalind Franklin" in first row of the web table......pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Web table user order feature" name="User should be able to place order and order seen in web table 3" time="11.012">
+    <testcase classname="Web table user order feature" name="User should be able to place order and order seen in web table 3" time="5.93">
         <system-out>
             <![CDATA[Given user is already logged in and on order page...........................passed
 When user selects product type "Screenable".................................passed
@@ -54,7 +54,7 @@ Then user should see "List Meitner" in first row of the web table...........pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Web table user order feature" name="User should be able to place order and order seen in web table 4" time="10.553">
+    <testcase classname="Web table user order feature" name="User should be able to place order and order seen in web table 4" time="5.182">
         <system-out>
             <![CDATA[Given user is already logged in and on order page...........................passed
 When user selects product type "MoneyCog"...................................passed
@@ -72,7 +72,7 @@ Then user should see "Chien-Shiung Wu" in first row of the web table........pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Web table user order feature" name="User should be able to place order and order seen in web table 5" time="10.632">
+    <testcase classname="Web table user order feature" name="User should be able to place order and order seen in web table 5" time="5.57">
         <system-out>
             <![CDATA[Given user is already logged in and on order page...........................passed
 When user selects product type "MoneyCog"...................................passed
