@@ -9,6 +9,7 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -44,12 +45,13 @@ public class VyTrackLoginDDTTest {
             String password=sheet.getRow(i).getCell(1).toString();
             String firstName=sheet.getRow(i).getCell(2).toString();
             String lastName=sheet.getRow(i).getCell(3).toString();
-loginPage.login(userName,password);
+            loginPage.login(userName,password);
             WebDriverWait wait=new WebDriverWait(Driver.getDriver(),30);
             WebElement loaderMask=Driver.getDriver().findElement(By.cssSelector("div[class='loader-mask shown']"));
             wait.until(ExpectedConditions.invisibilityOf(loaderMask));
             String actualFullname=dashboardPage.fullName.getText();
             XSSFCell resultCell=sheet.getRow(i).getCell(4);
+
             if (actualFullname.contains(firstName)&&actualFullname.contains(lastName)){
                 System.out.println("PASS");
                 resultCell.setCellValue("PASS");
